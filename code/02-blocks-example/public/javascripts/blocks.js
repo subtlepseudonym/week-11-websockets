@@ -64,7 +64,7 @@ $(function () {
       // the coordinates of this client's block and send a message to the server
       // to broadcast the change to all connected clients:
       board.mousemove(function (e) {
-        // Update the displayed position:        
+        // Update the displayed position:
         displayPosition(e.pageX, e.pageY);
         // Change the coordinates of the block:
         block.x = e.pageX;
